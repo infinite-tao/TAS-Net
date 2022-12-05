@@ -10,7 +10,7 @@ import h5py
 import torch.backends.cudnn as cudnn
 from torch.optim import lr_scheduler
 from torch.distributions import Bernoulli
-from DSN import DSN, FC
+from models import DSN, FC
 from utils import weights_init, save_checkpoint, inv_lr_scheduler, read_json
 from rewards import compute_reward_det_coff, compute_reward_coff, compute_reward
 import numpy as np
